@@ -7,7 +7,7 @@ function NavBar(){
         <Navbar bg="light" variant="light" fixed="top">
           <Container>
             <Navbar.Brand href="#home">
-                <img src={Logo} width="100" height="100" alt='' />
+                <img src={Logo} width="100" height="100" alt='VAYUPUTRA BUILDINGS' />  
             </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end">

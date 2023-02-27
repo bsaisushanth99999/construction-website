@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.infoandForm {
+  padding-top: 150px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.slogan{
+  color: aqua;
+}
