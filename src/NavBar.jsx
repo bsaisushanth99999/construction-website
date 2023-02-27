@@ -1,11 +1,14 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
+import Logo from './Images/Logo.jpg';
 
 function NavBar(){
     return (
         <Navbar bg="light" variant="light" fixed="top">
           <Container>
-            <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
+            <Navbar.Brand href="#home">
+                <img src={Logo} width="100" height="100" alt='' />
+            </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end">
               <Navbar.Text>
