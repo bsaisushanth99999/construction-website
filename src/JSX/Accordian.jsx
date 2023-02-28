@@ -1,16 +1,16 @@
 import React from "react";
 import { MDBAccordion, MDBAccordionItem } from 'mdb-react-ui-kit';
 
-function Accordian() {
+function Accordian(props) {
     return(
         <div className="accordianElement">
-        <MDBAccordion initialActive={1}>
-            <MDBAccordionItem collapseId={1} headerTitle='Accordion Item #1'>
+        <MDBAccordion initialActive={0}>
+            <MDBAccordionItem collapseId={0} headerTitle={props.header}>
                 We are in!!
             </MDBAccordionItem>  
         </MDBAccordion>
         </div>
     )
 }
-
+// 
 export default Accordian;

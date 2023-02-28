@@ -1,7 +1,16 @@
 import React from "react";
 import Accordian from "./Accordian";
+import accordianData from "../packagesData.json";
 
 function OurPackages() {
+
+    function accordialLoop() {
+        return accordianData.accordianHeadings.map((x, y) => {
+            return (
+                <Accordian header = {x}/>
+            )
+        })
+    }
     return(
     <div className="packageMainDiv">
         <div className="ourPackagesText">
@@ -12,19 +21,19 @@ function OurPackages() {
         <div className="packageTableData">
             <div className="firstDiv">
                 <h2>Basic</h2>
-                <Accordian />
+                {accordialLoop()}
             </div>
             <div className="secondDiv">
                 <h2>Premium</h2>
-                <Accordian />
+                {accordialLoop()}
             </div>
             <div className="thirdDiv">
                 <h2>Luxary</h2>
-                <Accordian />
+                {accordialLoop()}
             </div>
             <div className="fourthDiv">
                 <h2>The Dream</h2>
-                <Accordian />
+                {accordialLoop()}
             </div>
         </div>
     </div>
