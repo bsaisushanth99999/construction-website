@@ -1,12 +1,14 @@
 import './App.css';
-import NavBar from './NavBar';
-import InfoandForm from './InfoandForm';
+import NavBar from './JSX/NavBar';
+import InfoandForm from './JSX/InfoandForm';
+import OurPackages from './JSX/OurPackages';
 
 function App() {
   return (
     <div className="App">
     <NavBar />
-    <InfoandForm />
+    <InfoandForm /> <br /> <br />
+    <OurPackages />
     </div>
   );
 }

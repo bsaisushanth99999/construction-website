@@ -26,7 +26,7 @@
 }
 
 .forumSubmitButton{
-  width: 50%;
+  width: 60%;
 }
 
 #name{
@@ -34,6 +34,22 @@
   width: 50%;
 }
 
+.ourPackagesText p{
+  text-align: center;
+}
+
+.ourPackagesText h1,h4{
+  text-align: center;
+  background-image: linear-gradient(to right, green, indigo, red);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.packageTableData{
+  height: 150px;
+}
 
 #phone{
   float: right;
