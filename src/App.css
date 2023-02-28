@@ -5,7 +5,11 @@
   to {
     transform: rotate(360deg);
   }
-}
+} 
+
+/* .accordianElement{
+  padding-right: 20px;
+} */
 
 .infoandForm {
   padding-top: 150px;
@@ -21,12 +25,29 @@
   color: transparent;
 }
 
+.firstDiv,.secondDiv,.thirdDiv,.fourthDiv{
+  width: 25%;
+  float: left;
+  border: 1px solid black;
+  text-align: center;
+  background-image: linear-gradient(to left, violet, indigo, lightblue, orange, red);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 .forumDiv{
   position: relative;
 }
 
 .forumSubmitButton{
   width: 60%;
+  height: 20%;
+}
+
+.MDBAccordionItem{
+  width: 50%;
 }
 
 #name{
@@ -48,7 +69,18 @@
 }
 
 .packageTableData{
-  height: 150px;
+  width: 85%;
+  /* border: 1px solid black; */
+  padding: 15px;
+  position: absolute;
+  left: 0; right: 0;
+  overflow: hidden;
+  background: #fff; 
+  margin:0 auto;
+}
+
+.packageMainDiv{
+  position: relative;
 }
 
 #phone{
